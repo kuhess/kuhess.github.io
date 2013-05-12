@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Hi!</title>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Francois+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	body {
+		background: rgb(42, 42, 42);
+	}
+	.header {
+		min-width: 480px;
+		margin: auto;
+		margin-top: 100px;
+		text-align: center;
+	}
+	#kuhess {
+		font-weight: normal;
+		text-transform: uppercase;
+		font-family: 'Francois One', sans-serif;
+		font-size: 72px;
+		color: rgb(60, 140, 200);
+	}
+	#kuhess span {
+		display: inline-block;
+		position: relative;
+		text-align: center;
+		background: white;
+		padding: 2px 15px;
+		margin: 0px 3px;
+		transition: all 0.2s ease-out;
+		text-shadow: 1px -1px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: -5px 8px 5px rgba(0, 0, 0, 0.25);
+	}
+	#kuhess .char1 {
+		top: 1px;
+		-webkit-transform: rotate(2deg);
+		-moz-transform:rotate(2deg);
+		-o-transform:rotate(2deg);
+		-ms-transform:rotate(2deg);
+	}
+	#kuhess .char2 {
+		top: -2px;
+		-webkit-transform: rotate(-3deg);
+		-moz-transform:rotate(-3deg);
+		-o-transform:rotate(-3deg);
+		-ms-transform:rotate(-3deg);
+	}
+	#kuhess .char3 {
+		top: 0px;
+		-webkit-transform: rotate(1deg);
+		-moz-transform:rotate(1deg);
+		-o-transform:rotate(1deg);
+		-ms-transform:rotate(1deg);
+	}
+	#kuhess .char4 {
+		top: -2px;
+		-webkit-transform: rotate(0.5deg);
+		-moz-transform:rotate(0.5deg);
+		-o-transform:rotate(0.5deg);
+		-ms-transform:rotate(0.5deg);
+	}
+	#kuhess .char5 {
+		top: -1px;
+		-webkit-transform: rotate(-2deg);
+		-moz-transform:rotate(-2deg);
+		-o-transform:rotate(-2deg);
+		-ms-transform:rotate(-2deg);
+	}
+	#kuhess .char6 {
+		top: 3px;
+		-webkit-transform: rotate(1deg);
+		-moz-transform:rotate(1deg);
+		-o-transform:rotate(1deg);
+		-ms-transform:rotate(1deg);
+	}
+	#kuhess span:hover {
+		top: 4px;
+		-webkit-transform: rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 id="kuhess">Kuhess</h1>
+	</div>
+	<script>
+	$(function() {
+		$("#kuhess").lettering();
+	});
+	</script>
+</body>
+</html>

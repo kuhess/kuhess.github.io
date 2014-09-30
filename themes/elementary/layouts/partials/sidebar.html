@@ -1,0 +1,13 @@
+<div>
+	<h1><a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></h1>
+	<p>{{ .Site.Params.description }}</p>
+	<ul>
+		<li><a href="{{ .Site.BaseUrl }}"><i class="fa fa-home"></i> Home</a></li>
+		<li><a href="{{ .Site.BaseUrl }}/post/"><i class="fa fa-quote-left"></i> Posts</a></li>
+		<li><a href="{{ .Site.BaseUrl }}/about/"><i class="fa fa-user"></i> About</a></li>
+	</ul>
+	<ul>
+		{{ with .Site.Params.github }}<li><a href="https://github.com/{{ . }}"><i class="fa fa-github"></i></a>{{ end }}
+		{{ with .Site.Params.linkedin }}<li><a href="https://linkedin.com/in/{{ . }}"><i class="fa fa-linkedin"></i></a>{{ end }}
+	</li>
+</div>

@@ -1,0 +1,8 @@
+baseurl = "http://kuhess.github.com"
+languageCode = "en-us"
+title = "Quentin Suire"
+
+[params]
+	description = "Quack?"
+	github = "kuhess"
+	linkedin = "qsuire"

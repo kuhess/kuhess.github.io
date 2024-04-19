@@ -26,9 +26,11 @@ Présentation du fonctionnement de PSO et de mon projet https://github.com/kuhes
 
 [*Dat'apéro meetup*](https://www.meetup.com/datapero-angers/) 2022-12-15
 
-### [Challenge Kaggle en NLP](https://www.kaggle.com/code/qsuire/goodreads-huggingface-inference/notebook)
+### Challenge Kaggle en NLP
 
 Atelier collaboratif sur un challenge Kaggle résolu avec le fine-tuning d'un modèle LLM (modèle BERT).
+- [notebook fine-tuning](https://www.kaggle.com/code/qsuire/goodreads-books-reviews-rating-prediction/notebook)
+- [notebook inference](https://www.kaggle.com/code/qsuire/goodreads-huggingface-inference/notebook)
 
 [*Dat'apéro meetup*](https://www.meetup.com/datapero-angers/) 2022-06-09
 
@@ -44,8 +46,12 @@ The whole Viadeo's technical stack on one dev station using Docker.
 
 [*Devoxx 2015*](https://www.devoxx.fr), with Nicolas Colomer
 
+*Docker Paris meetup* 2015-02-25 with Nicolas Colomer
+
 ### [A personalized news feed](https://speakerdeck.com/viadeoteam/a-personalized-news-feed)
 
 Feedback about the design and the implementation of the news feed of Viadeo with Elasticsearch.
 
 [*Devoxx 2015*](https://www.devoxx.fr), with Fabrice Robini & Greg Truchetet
+
+Elasticsearch FR Meetup 2014-12-17 with Greg Truchetet

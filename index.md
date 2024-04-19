@@ -8,23 +8,31 @@ Linkedin: [qsuire](https://www.linkedin.com/in/qsuire/)
 
 ## Public presentations
 
-### [Fine-tuning d'un LLM](datapero-finetuning-llm)
+### [Fine-tuning d'un LLM](https://github.quentinsuire.com/datapero-finetuning-llm)
+
+Explications des méthodes de fine-tuning de LLM sur des données synthétiques customs.
 
 [*Dat'apéro meetup*](https://www.meetup.com/datapero-angers/) 2024-03-21
 
-### [Introduction au Machine Learning](datapero-intro-ml)
+### [Introduction au Machine Learning](https://github.quentinsuire.com/datapero-intro-ml)
+
+Introduction au machine learning pour un public varié.
 
 [*Dat'apéro meetup*](https://www.meetup.com/datapero-angers/) 2023-11-09
 
-### [Découverte d'une méthode d'optimisation : Particle Swarm Optimization (PSO)](datapero-pso-ann)
+### [Découverte d'une méthode d'optimisation : Particle Swarm Optimization (PSO)](https://github.quentinsuire.com/datapero-pso-ann)
+
+Présentation du fonctionnement de PSO et de mon projet https://github.com/kuhess/pso-ann
 
 [*Dat'apéro meetup*](https://www.meetup.com/datapero-angers/) 2022-12-15
 
 ### [Challenge Kaggle en NLP](https://www.kaggle.com/code/qsuire/goodreads-huggingface-inference/notebook)
 
+Atelier collaboratif sur un challenge Kaggle résolu avec le fine-tuning d'un modèle LLM (modèle BERT).
+
 [*Dat'apéro meetup*](https://www.meetup.com/datapero-angers/) 2022-06-09
 
-### [Appli web VS haute charge](presentations/appli-web-vs-haute-charge)
+### [Appli web VS haute charge](https://github.quentinsuire.com/presentations/appli-web-vs-haute-charge)
 
 Présentation sur la scalabilité et sur les évolutions de l'architecture d'une application web.
 
@@ -32,8 +40,9 @@ Présentation sur la scalabilité et sur les évolutions de l'architecture d'une
 
 ### [La stack technique de Viadeo sur un poste de travail avec Docker](https://speakerdeck.com/viadeoteam/docker-at-viadeo)
 
-[*Devoxx 2015*](https://www.devoxx.fr), with
-Nicolas Colomer
+The whole Viadeo's technical stack on one dev station using Docker.
+
+[*Devoxx 2015*](https://www.devoxx.fr), with Nicolas Colomer
 
 ### [A personalized news feed](https://speakerdeck.com/viadeoteam/a-personalized-news-feed)
 
